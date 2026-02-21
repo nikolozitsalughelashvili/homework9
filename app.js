@@ -23,7 +23,45 @@ console.log(1);
 // •	შედეგი გამოიტანე document.write()-ით
 //შესრულება:
 
-function greetUser(name) {
-  return " Hello, " + name + "! <br>";
-}
-document.write(greetUser(prompt("შეიყვანეთ თქვენი სახელი")));
+// function greetUser(name) {
+//   return " Hello, " + name + "! <br>";
+// }
+// document.write(greetUser(prompt("შეიყვანეთ თქვენი სახელი")));
+
+// დავალება 2: ქულის შეფასება (Grade System)
+// იდეა: ქულის შეფასება ქულების მიხედვით
+// დავალება:
+// •	შექმენი ფუნქცია getGrade(score)
+// •	თუ ქულა:
+// o	90–100 → A
+// o	70–89 → B
+// o	50–69 → C
+// o	ნაკლები → F
+// •	ქულა მიიღე prompt()-ით
+// •	შედეგი აჩვენე alert()-ით
+//შესრულება:
+
+// function getGrade(score) {
+//   if (score > 100 || score < 1 || !Number.isInteger(score) || isNaN(score)) {
+//     return "თქვენს მიერ არასწორადაა შეყვანილი ქულების მნიშვნელობა. უნდა შეიყვანოთ ნატურალური რიცხვები 1-დან 100-ის ჩათვლით";
+//   } else if (score >= 90 && score <= 100) {
+//     return "A";
+//   } else if (score >= 70 && score < 90) {
+//     return "B";
+//   } else if (score >= 50 && score < 70) {
+//     return "C";
+//   } else {
+//     return "F";
+//   }
+// }
+// alert(getGrade(Number(prompt("შეიყვანეთ ქულა 1-დან 100-მდე"))));
+
+// 🔹 დავალება 3: რენდომ რიცხვის თამაში
+// იდეა: ბედი გიღიმის თუ არა 🎲
+// დავალება:
+// •	შექმენი ფუნქცია getRandomNumber()
+// •	ფუნქციამ დააგენერიროს რიცხვი 1–10 შუალედში
+// •	თუ რიცხვი > 5 → „You win“
+// •	სხვა შემთხვევაში → „Try again“
+// •	შედეგი აჩვენე alert()-ით
+// //შესრულება:
